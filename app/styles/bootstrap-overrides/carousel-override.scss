@@ -1,0 +1,57 @@
+// CAROUSEL ----------------------------------------
+.carousel-caption {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  h1 {
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    font-size: 5em;
+  }
+  p {
+    padding-bottom: 4em;
+  }
+}
+.carousel {
+  margin-top: 50px;
+
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.carousel-indicators .active {
+  width: 13px;
+  height: 13px;
+  margin: 0 5px;
+  border: 3px solid #fff;
+  background-color: $brand-primary;
+    // -moz-box-shadow: 0 0 9.5px 0.5px rgb(0, 0, 0);
+    // -webkit-box-shadow: 0 0 9.5px 0.5px rgb(0, 0, 0);
+    // box-shadow: 0 0 9.5px 0.5px rgb(0, 0, 0);
+  }
+  .carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    margin: 0 5px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+  .col-md-6.feature-image {
+    padding-left: 0;
+    overflow: hidden;
+  }
+  .feature-image img {
+    max-height: 480px;
+    width: 100%;
+    overflow: hidden;
+  }
+  #responsive {
+    background: url('../img/black-twill.png') repeat;
+    h1, h2, h3, ul, p {
+      color: #fff;
+    }
+  }
+  .light-box .icon-mobile {
+    display: block;
+    font-size: 2.25em;
+    margin-top: 0.33em;
+  }

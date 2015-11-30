@@ -1,0 +1,18 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+// @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+@import "bootstrap-overrides/bootstrap-variables-override";
+
+@import "bootstrap-overrides/carousel-override";
+@import "bootstrap-overrides/navbar-override";
+
+// @import "plugins/flexslider";
+@import "theme/animate";
+@import "theme/custom-icons";
+@import "theme/theme-styles";
+@import "theme/queries";
